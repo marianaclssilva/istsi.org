@@ -1,0 +1,146 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: none;
+    background-color: #F1F1F1;
+    word-wrap: break-word;
+}
+
+::selection {
+    color: rgba(255, 255, 255, 0.99);
+    background-color: rgba(49, 54, 75, 0.99);
+}
+
+::-moz-selection {
+    color: rgba(255, 255, 255, 0.99);
+    background-color: rgba(49, 54, 75, 0.99);
+}
+
+:focus {
+    outline: 0;
+}
+
+select:active, select:hover {
+    outline-color: rgba(49, 54, 75, 0.99);
+}
+
+.center-block {
+    float: none;
+}
+
+a {
+    color: #009DE0;
+}
+
+a:hover {
+    color: #008ACB;
+    text-decoration: none;
+}
+
+a.inverse {
+    color: #31364B;
+}
+
+a.inverse:hover {
+    color: #242424;
+}
+
+.btn {
+    text-shadow: none;
+    box-shadow: none;
+    outline: 0;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #009DE0;
+    border-color: #0093D6;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #008ACB;
+}
+
+.btn-primary:active:hover, .btn-primary:active:focus {
+    background-color: #005880;
+}
+
+.btn-info {
+    background-color: #3E4459;
+    border-color: #3E4459;
+}
+
+.btn-info:hover, .btn-info:active, .btn-info:focus {
+    background-color: #31364B;
+    border-color: #3E4459;
+}
+
+.btn-info:active:hover, .btn-info:active:focus{
+    background-color: #242424;
+}
+
+.btn-info[disabled]:hover, .btn-info[disabled]:active, .btn-info[disabled]:focus {
+    background-color: #576084;
+    border-color: #3E4459;
+}
+
+.label-info {
+    background-color: #008ACB;
+}
+
+.navbar-inverse {
+    border-color: #242424;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #EFEFEF;
+}
+
+.navbar-collapse {
+    border: none;
+}
+
+.form-control, .modal-content, .dropdown-menu, .navbar-toggle, .label,
+.list-group-item:first-child, .list-group-item:last-child {
+    border-radius: 0;
+}
+
+.table tbody tr:hover td,
+.table tbody tr:hover th,
+.table tbody tr:active td,
+.table tbody tr:active th {
+    background-color: #777;
+    color: white;
+}
+
+.close {
+    font-size: 25px;
+}
+
+.modal-header .close {
+    margin-top: -7px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.mtb45 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.mb60 {
+    margin-bottom: 60px;
+}
+
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
