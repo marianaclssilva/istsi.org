@@ -5,7 +5,9 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5, 
+h6 {
     font-family: 'Ubuntu Condensed', sans-serif;
     margin: 0 0 20px;
 }
@@ -22,6 +24,18 @@ h2 {
     font-weight: 700;
     margin-bottom: 0;
     text-transform: uppercase;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 .home .container {
@@ -49,6 +63,22 @@ h2 {
 .apply {
     padding: 80px 0;
     background-color: #009DE0;
+}
+
+.faqs {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.center-justified {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    padding: 0px 110px 0px 110px;
+}
+
+.informations {
+    padding-top: 30px;
 }
 
 .social {
@@ -128,6 +158,14 @@ h2 {
 
 .white {
     color: white;
+}
+
+.black {
+    color: black;
+}
+
+.blue {
+    color: #009DE0;
 }
 
 .stats {
